@@ -2,6 +2,7 @@
 python coursework
 
 F20SC: Industrial Programming CW2: Data Analytics (50%) 2016/17 Assessed Coursework 2 — Data Analysis of a Document Tracker
+==============
 
 The application must provide the following functionality:
 1. Python: The core logic of the application should be implemented in Python.
