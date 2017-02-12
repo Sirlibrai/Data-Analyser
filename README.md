@@ -6,9 +6,13 @@ F20SC: Industrial Programming CW2: Data Analytics (50%) 2016/17 Assessed Coursew
 
 The application must provide the following functionality:
 1. Python: The core logic of the application should be implemented in Python.
+
 2. Views by country/continent: We want to analyse, for a given document, from which countries and continents the document has been viewed. The data should be displayed as a histogram of countries, i.e. counting the number of occurrences for each country in the input file.
+
 (a) The application should take a string as input, which uniquely specifies a document (a document UUID), and return a histogram of countries of the viewers. The histogram can be displayed using mathplot.
+
 (b) Use the data you have collected in the previous task, group the countries by continent, and generate a histogram of the continents of the viewers. The histogram can be displayed using mathplot.
+
 3. Views by browser: In this task we want to identify the most popular browser. To this end, the application has to examine the visitor useragent field and count the number of occurrences for each value in the input file.
 (a) The application should return and display a histogram of all browser identifiers of the viewers.
 (b) In the previous task, you will see that the browser strings are very verbose, distinguishing browser by e.g. version and OS used. Process the input of the above task, so that only the main browser name is used to distinguish them (e.g. Mozilla), and again display the result as a histogram.
